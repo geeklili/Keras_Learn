@@ -39,7 +39,7 @@ model.compile(
 # 训练数据集: epochs: 训练几个轮回， batch_size: 一次训练多少数据
 model.fit(X_train, Y_train, epochs=2, batch_size=32)
 
-# 测试
+# 测试数据
 loss, accuracy = model.evaluate(X_test, Y_test)
 print('loss:', loss)
 print('accuracy:', accuracy)
